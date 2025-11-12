@@ -44,7 +44,7 @@ From events to food, from chatting with peers to discovering opportunities — *
 
 ## 🧠 Roadmap
 
-- [x] Initialize project with Expo + TypeScript  
+- [x] Initialize project+ TypeScript  
 - [ ] Design UI mockups (Figma)  
 - [ ] Build navigation (Home, Events, Canteen, Profile)  
 - [ ] Integrate backend APIs  

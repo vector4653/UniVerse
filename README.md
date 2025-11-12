@@ -32,7 +32,7 @@ From events to food, from chatting with peers to discovering opportunities — *
 
 | Category | Technology |
 |-----------|-------------|
-| **Frontend** | React Native (Expo) |
+| **Frontend** | React |
 | **Language** | TypeScript |
 | **Backend (planned)** | Node.js + Express / Firebase |
 | **Database (planned)** | MongoDB / Firebase Firestore |

@@ -1,22 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
+import gear from './gear-spinner.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={gear} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Under Construction.
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.linkedin.com/in/ritvik-nambiar/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Contact me
         </a>
       </header>
     </div>

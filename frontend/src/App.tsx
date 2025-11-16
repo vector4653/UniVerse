@@ -26,7 +26,7 @@ function  NavBar(){
   return(
     <div className="Nav">
       <>
-        <p>Navagation Bar Start Code</p>
+        <a href="App.tsx" className="Icon">UniVerse</a>
       </>
     </div>
   );

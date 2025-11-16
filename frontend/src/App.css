@@ -9,7 +9,7 @@
 
 
 .App-header {
-  background-color: #282c34;
+  background-color: #070031;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,14 +23,22 @@
   color: #61dafb;
 }
 .Nav{
-  background-color: #61DAFB;
+  background-color: #070031;
   z-index: 10;
   min-height: 10vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
   font-size: calc(10px + 2vmin);
+  font-family: Jura;
+  color: #A2BCFF;
+}
+.Icon{
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: calc(10px + 2vmin);
+  font-family: Jura;
+  color: #A2BCFF;
 }
 
 

@@ -22,5 +22,15 @@ function App() {
     </div>
   );
 }
+function  NavBar(){
+  return(
+    <div className="Nav">
+      <>
+        <p>Navagation Bar Start Code</p>
+      </>
+    </div>
+  );
+}
 
 export default App;
+export { NavBar };

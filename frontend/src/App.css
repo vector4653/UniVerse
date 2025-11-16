@@ -22,5 +22,15 @@
 .App-link {
   color: #61dafb;
 }
+.Nav{
+  background-color: #61DAFB;
+  z-index: 10;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(10px + 2vmin);
+}
 
 

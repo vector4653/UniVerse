@@ -27,6 +27,11 @@ function  NavBar(){
     <div className="Nav">
       <>
         <a href="App.tsx" className="Icon">UniVerse</a>
+        <div className="LoginSignupButton">
+          <button className="LoginSignupStyle">Login</button>
+          <button className="LoginSignupStyle">Sign Up</button>
+        </div>
+       
       </>
     </div>
   );

@@ -24,21 +24,37 @@
 }
 .Nav{
   background-color: #070031;
-  z-index: 10;
   min-height: 10vh;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
   font-size: calc(10px + 2vmin);
   font-family: Jura;
   color: #A2BCFF;
 }
 .Icon{
   text-decoration: none;
-  margin-left: 10px;
   font-size: calc(10px + 2vmin);
   font-family: Jura;
   color: #A2BCFF;
+  margin-left: 20px;
+}
+.LoginSignupButton{
+    display: flex;
+    gap: 15px;
+    margin-right: 20px ;
+}
+.LoginSignupStyle{
+  background-color: #AFC1FB;
+  color: #2360FF;
+  border: none;
+  border-radius: 15px;
+  padding: 1em 1em 1em;
+  font-size: calc(1.6px + 1.6vmin);
+  font-family: Jura;
+  cursor: pointer;
 }
 
 

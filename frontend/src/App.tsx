@@ -2,6 +2,7 @@ import React from 'react';
 import gear from './gear-spinner.svg';
 import './App.css';
 
+
 function App() {
   return (
     <div className="App">
@@ -13,7 +14,7 @@ function App() {
 function  NavBar(){
   return(
     <div className="Nav">
-        <a href="App.tsx" className="Icon">UniVerse</a>
+        <img src={process.env.PUBLIC_URL + '/images/icons/UniVerse.ico'} className="Icon"></img>
         <div className="LoginSignupButton">
           <button className="LoginSignupStyle">Login</button>
           <button className="LoginSignupStyle">Sign Up</button>

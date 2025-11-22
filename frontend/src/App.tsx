@@ -14,7 +14,7 @@ function App() {
 function  NavBar(){
   return(
     <div className="Nav">
-        <img src={process.env.PUBLIC_URL + '/images/icons/UniVerse.ico'} className="Icon"></img>
+        <img src={process.env.PUBLIC_URL + '/images/icons/UniVersePic.png'} className="Icon"></img>
         <div className="LoginSignupButton">
           <button className="LoginSignupStyle">Login</button>
           <button className="LoginSignupStyle">Sign Up</button>

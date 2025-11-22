@@ -2,6 +2,7 @@
   background-color: #070031;
   min-height: 100vh;
   display: flex;
+  width: 100%;
   flex-direction: column;
   justify-content: flex-start;
   font-size: calc(15px + 2vmin);
@@ -36,7 +37,7 @@
 }
 .Icon{
   text-decoration: none;
-  font-size: calc(10px + 2vmin);
+  width: calc(150px + 2vmin);
   font-family: Jura;
   color: #A2BCFF;
   margin-left: 20px;

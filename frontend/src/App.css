@@ -1,26 +1,25 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-
-.App-header {
   background-color: #070031;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: flex-start;
+  font-size: calc(15px + 2vmin);
   color: white;
+  font-family: Inter;
+  font-weight: bold;
 }
-
-.App-link {
-  color: #61dafb;
+.DesignedBy{
+  font-size: calc(25px + 4vmin);
+  margin-left: 190px;
+  margin-top: 250px;
+  margin-bottom: 0px
+}
+.Students{
+  font-size: calc(25px + 4vmin);
+  margin-left: 190px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 .Nav{
   background-color: #070031;
@@ -33,6 +32,7 @@
   font-size: calc(10px + 2vmin);
   font-family: Jura;
   color: #A2BCFF;
+  position: fixed;
 }
 .Icon{
   text-decoration: none;

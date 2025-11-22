@@ -5,37 +5,30 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={gear} className="App-logo" alt="logo" />
-        <p>
-          Under Construction.
-        </p>
-        <a
-          className="App-link"
-          href="https://www.linkedin.com/in/ritvik-nambiar/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Contact me
-        </a>
-      </header>
+        <p className="DesignedBy">Designed by</p>
+        <p className="Students">Students.</p>
     </div>
   );
 }
 function  NavBar(){
   return(
     <div className="Nav">
-      <>
         <a href="App.tsx" className="Icon">UniVerse</a>
         <div className="LoginSignupButton">
           <button className="LoginSignupStyle">Login</button>
           <button className="LoginSignupStyle">Sign Up</button>
         </div>
-       
-      </>
+    </div>
+  );
+}
+function MainContent(){
+  return(
+    <div>
+      
     </div>
   );
 }
 
 export default App;
 export { NavBar };
+export { MainContent};

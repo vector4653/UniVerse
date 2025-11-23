@@ -49,13 +49,17 @@
 }
 .LoginSignupStyle{
   background-color: #AFC1FB;
-  color: #2360FF;
+  color: black;
   border: none;
   border-radius: 15px;
   padding: 1em 1em 1em;
   font-size: calc(1.6px + 1.6vmin);
   font-family: Jura;
   cursor: pointer;
+  font-weight: bold;
+}
+.LoginSignupStyle:hover{
+  box-shadow: white;
 }
 
 

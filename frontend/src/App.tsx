@@ -1,7 +1,5 @@
-import React from 'react';
-import gear from './gear-spinner.svg';
-import './App.css';
-
+import { useState } from 'react'
+import './App.css'
 
 function App() {
   return (
@@ -14,7 +12,7 @@ function App() {
 function  NavBar(){
   return(
     <div className="Nav">
-        <img src={process.env.PUBLIC_URL + '/images/icons/UniVersePic.png'} className="Icon"></img>
+        <img src="/images/icons/UniVersePic.png" className="Icon" alt="UniVerse logo" />
         <div className="LoginSignupButton">
           <button className="LoginSignupStyle">Login</button>
           <button className="LoginSignupStyle">Sign Up</button>

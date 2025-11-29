@@ -8,6 +8,8 @@ function App() {
     <div className="App">
         <p className="DesignedBy">Designed by</p>
         <p className="Students">Students.</p>
+        <p className="For">For</p>
+        <p className="Students">Students.</p>
     </div>
   );
 }

@@ -31,10 +31,16 @@ function  NavBar(){
     <>
       <div className="Nav">
         <img src="/images/icons/UniVersePic.png" className="Icon" alt="UniVerse logo" />
-          <div className="LoginSignupButton">
-            <button className="LoginSignupStyle" onClick={() => setShowLogin(true)}>Login</button>
-            <button className="LoginSignupStyle" onClick={() => setShowSignup(true)}>Sign Up</button>
-          </div>
+        <div className="Island">
+          <button className="SplashPageNavButtonStyle">Home</button>
+          <button className="SplashPageNavButtonStyle">Features</button>
+          <button className="SplashPageNavButtonStyle">Github</button>
+          <button className="SplashPageNavButtonStyle">DevUpdates</button> 
+        </div> 
+        <div className="LoginSignupButton">
+          <button className="SplashPageNavButtonStyle" onClick={() => setShowLogin(true)}>Login</button>
+          <button className="SplashPageNavButtonStyle" onClick={() => setShowSignup(true)}>Sign Up</button>
+        </div>
       </div>
       {showLogin && <Login onClose={() => setShowLogin(false)} onSwitchToSignup={handleSwitchToSignup} />}
       {showSignup && <Signup onClose={() => setShowSignup(false)} onSwitchToLogin={handleSwitchToLogin} />}

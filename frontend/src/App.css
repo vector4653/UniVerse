@@ -22,9 +22,6 @@
   margin-top: 0px;
   margin-bottom: 0px;
 }
-.For{
-  
-}
 .Nav{
   background-color: #070031;
   min-height: 10vh;
@@ -45,13 +42,19 @@
   color: #A2BCFF;
   margin-left: 20px;
 }
+.Island{
+  display : flex;
+  gap : 15px;
+  
+}
 .LoginSignupButton{
     display: flex;
     gap: 15px;
     margin-right: 20px ;
 }
-.LoginSignupStyle{
-  background-color: #AFC1FB;
+.SplashPageNavButtonStyle{
+  background-color: #afc1fb;
+  border: 7px solid rgb(255, 255, 255);
   color: black;
   border: none;
   border-radius: 15px;
@@ -60,9 +63,13 @@
   font-family: Jura;
   cursor: pointer;
   font-weight: bold;
+  box-shadow: 0 0 5px #afc1fb, 0 0 5px #afc1fb, 0 0 10px #afc1fb;
+  transition: all 0.3s ease-in-out;
 }
-.LoginSignupStyle:hover{
-  box-shadow: white;
+.SplashPageNavButtonStyle:hover{
+  box-shadow: 0 0 7.5px #afc1fb, 0 0 7.5px #afc1fb, 0 0 15px #afc1fb;
+  padding: 1em 2em 1em;
+  font-size: calc(2px + 1.6vmin);
 }
 
 

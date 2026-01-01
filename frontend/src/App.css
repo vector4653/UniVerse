@@ -11,16 +11,40 @@
   font-weight: bold;
 }
 .DesignedBy{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   font-size: calc(25px + 4vmin);
-  margin-left: 190px;
-  margin-top: 250px;
-  margin-bottom: 0px
+  margin-left: 5.1em;
+  margin-top: 5em;
+  margin-bottom: 0em
 }
-.Students{
+
+.Studentsd{
+  flex-direction: column;
+  justify-content: flex-start;
   font-size: calc(25px + 4vmin);
-  margin-left: 190px;
-  margin-top: 0px;
+  margin-left: 5.1em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-right: 20em;
+}
+.For{
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: calc(25px + 4vmin);
+  margin-left: 19.9em;
   margin-bottom: 0px;
+  margin-right: 5.1em;
+}
+.Studentsf{
+  flex-direction: column;
+  justify-content: flex-start;
+  font-size: calc(25px + 4vmin);
+  margin-left: 19.9em;
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-right: 5.1em;
 }
 .Nav{
   background-color: #070031;
@@ -40,24 +64,24 @@
   width: calc(150px + 2vmin);
   font-family: Jura;
   color: #A2BCFF;
-  margin-left: 20px;
+  margin-left: 0.5em;
 }
 .Island{
   display : flex;
-  gap : 15px;
+  gap : 0.7em;
   
 }
 .LoginSignupButton{
     display: flex;
-    gap: 15px;
-    margin-right: 20px ;
+    gap:0.7em;
+    margin-right: 1em ;
+    z-index: 0;
 }
 .SplashPageNavButtonStyle{
   background-color: #afc1fb;
-  border: 7px solid rgb(255, 255, 255);
   color: black;
   border: none;
-  border-radius: 15px;
+  border-radius: 1em;
   padding: 1em 1em 1em;
   font-size: calc(1.6px + 1.6vmin);
   font-family: Jura;
@@ -68,8 +92,7 @@
 }
 .SplashPageNavButtonStyle:hover{
   box-shadow: 0 0 7.5px #afc1fb, 0 0 7.5px #afc1fb, 0 0 15px #afc1fb;
-  padding: 1em 2em 1em;
-  font-size: calc(2px + 1.6vmin);
+  transform: scale(1.1);
 }
 
 

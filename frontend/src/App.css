@@ -1,5 +1,5 @@
 .App {
-  background-color: #070031;
+  background-color: transparent;
   min-height: 100vh;
   display: flex;
   width: 100%;
@@ -9,6 +9,8 @@
   color: white;
   font-family: Inter;
   font-weight: bold;
+  position: relative;
+  z-index: 1;
 }
 .DesignedBy{
   display: flex;
@@ -58,6 +60,7 @@
   font-family: Jura;
   color: #A2BCFF;
   position: fixed;
+  z-index: 10;
 }
 .Icon{
   text-decoration: none;
@@ -89,10 +92,12 @@
   font-weight: bold;
   box-shadow: 0 0 5px #afc1fb, 0 0 5px #afc1fb, 0 0 10px #afc1fb;
   transition: all 0.3s ease-in-out;
+  transform-origin: center;
 }
 .SplashPageNavButtonStyle:hover{
-  box-shadow: 0 0 7.5px #afc1fb, 0 0 7.5px #afc1fb, 0 0 15px #afc1fb;
-  transform: scale(1.1);
+  box-shadow: 0 0 10px #afc1fb, 0 0 10px #afc1fb, 0 0 20px #afc1fb !important;
+  transform: scale(1.2) !important;
+  background-color: #c5d5ff !important;
 }
 
 
